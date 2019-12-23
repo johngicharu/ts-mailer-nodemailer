@@ -1,0 +1,30 @@
+{
+  "name": "mailer-ts",
+  "version": "0.0.1",
+  "description": "Simple mailing implementation, to send and receive emails",
+  "main": "index.js",
+  "author": "John Gicharu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/handlebars": "^4.1.0",
+    "@types/morgan": "^1.7.37",
+    "@types/node": "^12.12.21",
+    "@types/nodemailer": "^6.4.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node --files ./src"
+  }
+}
